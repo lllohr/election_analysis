@@ -43,4 +43,7 @@ My biggest challenge completing this task was combining the initial data analysi
 The last challenge that really stumped me was the spacing on the print to terminal and writing to the file. I attempted to emulate the exact spacing of the image in the project specs. I experimented with the \N operator in Python until it looked like the image. Alas! I was able to achieve success!
 
 ## Election-Audit Summary:
+This election audit was a robust analysis of a single congressional precinct election. Can you imagine what this code could do on a larger scale? Will some modifications, this code could audit the presidential election results for each county is the state. For local elections, with just a code of modifications, the winner of the local elections could be verified. 
+
+For example, the election results for the city of Denver for the local elections (judges, mayorial, city council, school board, etc) could be tabulated from a simple .csv file contatining the votes. The code could read and tabulate the votes and then automatically reveal the winner. The total votes of each election and each race could be tabulated and written to a file for the election board to view. This code is flexible enough, it could be modified to include numerous candidates and the winners of multiple races or than the congressional races. Just as I was able to drill down into the county data, I could look at cities and towns within the counties and analyze the election data. 
 
